@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>申请认证</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.css" rel="stylesheet">
+    <script src="../commons/jquery.js"></script>
+    <script src="../commons/layer/layer.js"></script>
+    <script src="../js/authentication.js"></script>
+    <script src="../js/common.js"></script>  
+</head>
+<link rel="stylesheet" type="text/css" href="../css/media-screen.css" />
+<body>
+    <div class="top-bar">
+        <div class="bar-box tc">
+            <div class="row tc">
+                <div class="col-md-1 tc"></div>
+                <div class="col-md-2 tc c-pter"><img class="tb-img" src="../commons/imgs/auction.png">
+                    <p>拍卖行</p>
+                </div>
+                <div class="col-md-2 tc c-pter"><img class="tb-img" src="../commons/imgs/send.png">
+                    <p>寄售</p>
+                </div>
+                <div class="col-md-2 tc c-pter"><img class="tb-img" src="../commons/imgs/market.png">
+                    <p>商城</p>
+                </div>
+                <div class="col-md-2 tc c-pter"><img class="tb-img" src="../commons/imgs/charge.png">
+                    <p>充值</p>
+                </div>
+                <div class="col-md-2 tc c-pter"><img class="tb-img" src="../commons/imgs/pay.png">
+                    <p>信用支付</p>
+                </div>
+                <div class="col-md-1 tc"></div>
+            </div>
+        </div>
+    </div>
+    <div class="cd-pay authentication">
+        <div class="cd-pay-box">
+            <p class="tc big-wd">请填写本人真实信息</p>
+            <ul class="authentication-ul">
+                <li><div class="w25">姓名</div><div class="w75"><input id="name" type="text"></div></li>
+                <li><div class="w25">身份证号</div><div class="w75"><input id="idcard" type="text"></div></li>
+                <li><div class="w25">银行卡</div><div class="w75"><input id="bankcard" type="text"></div></li>
+                <li id="card-show"><div class="w25"></div><span><img src="../commons/imgs/pay.png" alt=""></span><span>XX银行</span></li>
+                <li id="mg-change"><div class="w25">手机号</div><div class="w50"><input id="bank-phone" type="text" placeholder="银行预留手机号"></div><div class="w25"><div id="getyzm">获取验证码</div></div></li>
+                <li><div class="w25">验证码</div><div class="w50"><input id="checkcode" type="text"></div></li>
+                <li><div class="w20"><input type="checkbox" id="inlineCheckbox" value="read"></div><div class="w80"><span>已阅读并同意</span><a><span style="text-decoration:underline;">《XXXXXXXXXXXXXXXXXX》</span></a></div></li>
+
+            </ul>
+            <div id="auth-sub" class="tc big-wd c-pter sub sub-min">提交</div>
+        </div>
+    </div>
+</body>
+
+</html>

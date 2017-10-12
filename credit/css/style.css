@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+HTML {
+    COLOR: #000;
+    font-family:"Microsoft YaHei","Helvetica Neue",Arial,HelveticaNeue,Helvetica-Neue,Helvetica,"BBAlpha Sans",sans-serif;
+}
+BODY,DIV,DL,DT,DD,UL,OL,LI,H1,H2,H3,H4,H5,H6,PRE,CODE,FORM,FIELDSET,LEGEND,INPUT,BUTTON,TEXTAREA,P,BLOCKQUOTE,TH,TD,IMG {
+    PADDING: 0px; MARGIN: 0px;
+}
+input,button,select,textarea{outline:none}
+TABLE {
+    BORDER-SPACING: 0; BORDER-COLLAPSE: collapse;
+}
+ADDRESS,CAPTION,CITE,CODE,DFN,EM,STRONG,TH,VAR,OPTGROUP {
+    FONT-STYLE: inherit; FONT-WEIGHT: inherit
+}
+DEL,INS {
+    TEXT-DECORATION: none
+}
+LI {
+    LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+CAPTION,TH {
+    TEXT-ALIGN: left
+}
+H1,H2,H3,H4,H5,H6 {
+    FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+Q:before {
+    CONTENT: ''
+}
+Q:after {
+    CONTENT: ''
+}
+ABBR,ACRONYM {
+    BORDER: 0px; FONT-VARIANT: normal;
+}
+SUP,SUB {
+    VERTICAL-ALIGN: baseline
+}
+LEGEND {
+    COLOR: #000
+}
+INPUT,BUTTON,TEXTAREA,SELECT,OPTGROUP,OPTION {
+    FONT-STYLE: inherit; FONT-FAMILY: inherit; FONT-SIZE: inherit; FONT-WEIGHT: inherit
+}
+INPUT {
+    
+}
+BUTTON {
+    
+}
+TEXTAREA {
+    
+}
+SELECT {
+    
+}
+

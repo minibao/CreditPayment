@@ -1,0 +1,206 @@
+
+/*屏幕在手机宽度以上，1024以下*/
+
+@media screen and (min-width:750px) and (max-width:1280px) {
+    html {
+        font-size: 10px!important;
+    }
+    .top-bar {
+        padding: 1rem 5rem;
+        font-size: 1.8rem;
+    }
+    .col-md-2 {
+        width: 16.66666666%;
+        float: left;
+    }
+    .col-md-1 {
+        width: 8.33333333%;
+        float: left;
+    }
+}
+
+@media screen and (min-width:650px) and (max-width:749px) {
+    html {
+        font-size: 10px!important;
+    }
+    .top-bar {
+        padding: 1rem 5rem;
+        font-size: 1.8rem;
+    }
+    .col-md-2 {
+        width: 16.66666666%;
+        float: left;
+    }
+    .col-md-1 {
+        width: 8.33333333%;
+        float: left;
+    }
+    .tb-img {
+        width: 3rem;
+    }
+    /*.top-bar img{
+		display: none;
+	}*/
+}
+
+@media screen and (min-width:350px) and (max-width:649px) {
+    html {
+        font-size: 10px!important;
+    }
+    .top-bar {
+        padding: 1rem 5rem;
+        font-size: 1.8rem;
+    }
+    .col-md-2 {
+        width: 16.66666666%;
+        float: left;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .col-md-1 {
+        width: 8.33333333%;
+        float: left;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .tb-img {
+        width: 3rem;
+    }
+    .top-bar p {
+        display: none;
+    }
+    .cd-pay {
+        -webkit-flex: initial;
+        flex: initial;
+        width: 98%;
+        min-width: 20rem;
+        margin: 2rem auto;
+    }
+    .cd-pay-box {
+        margin: 5% 3%;
+        padding: 2rem 0;
+    }
+    .immediately .immedi-box {
+        margin: 5% 0;
+        padding: 2rem 0 0 0;
+    }
+    .immediately .pay-info .pay-btn,.immediately .pay-info {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .ds-hide{
+        display: block!important;
+    }
+    .authentication-ul {
+        font-size: 1.2rem;
+    }
+    .authentication .w50 input  {
+        text-indent: 1rem;
+        font-size: 1.2rem;
+    }
+    .authentication .w75 input{
+        text-indent: 1rem;
+        font-size: 1.2rem;
+    }
+    .authentication li {
+        margin-top: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width:0px) and (max-width:349px) {
+    html {
+        font-size: 10px!important;
+    }
+    .top-bar {
+        padding: 1rem 5rem;
+        font-size: 1.8rem;
+    }
+    .col-md-2 {
+        width: 16.66666666%;
+        float: left;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .col-md-1 {
+        width: 8.33333333%;
+        float: left;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .tb-img {
+        width: 2rem;
+    }
+    .top-bar {
+        /*display: none;*/
+    }
+    .cd-pay {
+        -webkit-flex: initial;
+        flex: initial;
+        width: 98%;
+        min-width: 15rem;
+        margin: 2rem auto;
+    }
+    .cd-pay img {
+        height: 4rem;
+        margin-bottom: 1rem;
+    }
+    .top-bar p {
+        display: none;
+    }
+    .cd-pay-box {
+        margin: 5% 3%;
+        padding: 2rem 0;
+    }
+    .authentication li .w50 {
+        width: 45%;
+        float: left;
+        background: #fff;
+        border-radius: 10px;
+    }
+    #mg-change .w25 {
+        width: 25%;
+        float: left;
+    }
+    #getyzm {
+        margin: 0 .3rem;
+        background: #b9b9b9;
+        text-align: center;
+        float: right;
+    }
+    .immediately .immedi-box {
+        margin: 5% 0;
+        padding: 2rem 0 0 0;
+    }
+    .immediately .pay-info .pay-btn,.immediately .pay-info {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .ds-hide{
+        display: block!important;
+    }
+    .authentication-ul {
+        font-size: 1.2rem;
+    }
+    .authentication li .w20 {
+        width: auto;
+        float: left;
+        padding-top: .25rem;
+        padding-right: 1rem;
+    }
+    .authentication li .w80 {
+        width: auto;
+        float: left;
+    }
+    .authentication .w50 input {
+        text-indent: 1rem;
+        font-size: 1.2rem;
+    }
+    .authentication .w75 input {
+        text-indent: 1rem;
+        font-size: 1.2rem;
+    }
+    .authentication li {
+        margin-top: 1.5rem;
+    }
+}

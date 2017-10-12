@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>在线支付</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/main.css"/>
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.css" rel="stylesheet">
+    <script src="../commons/jquery.js"></script>
+    <script src="../js/pay-immediately.js"></script>
+    <script src="../commons/layer/layer.js"></script>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/media-screen.css"/>
+
+<body>
+<div class="mask-yzm mid-wd">
+    <div>
+        <div>
+            <div>请输入手机验证码</div>
+            <div><span class="input-st"><input  id="phone-input" type="text"></span><span class="getyzm">获取验证码</span></div>
+            <div class="line1"></div>
+            <div class="yzm-btn"><span no id="yzm-cancel">取消</span><span yes class="red-wd" id="yzm-ok">确定</span></div>
+        </div>
+    </div>
+</div>
+<div class="top-bar">
+    <div class="bar-box tc">
+        <div class="row tc">
+            <div class="col-md-1 tc"></div>
+            <div class="col-md-2 tc c-pter"><img class="tb-img" src="../commons/imgs/auction.png">
+                <p>拍卖行</p>
+            </div>
+            <div class="col-md-2 tc c-pter"><img class="tb-img" src="../commons/imgs/send.png">
+                <p>寄售</p>
+            </div>
+            <div class="col-md-2 tc c-pter"><img class="tb-img" src="../commons/imgs/market.png">
+                <p>商城</p>
+            </div>
+            <div class="col-md-2 tc c-pter"><img class="tb-img" src="../commons/imgs/charge.png">
+                <p>充值</p>
+            </div>
+            <div class="col-md-2 tc c-pter"><img class="tb-img" src="../commons/imgs/pay.png">
+                <p>信用支付</p>
+            </div>
+            <div class="col-md-1 tc"></div>
+        </div>
+    </div>
+</div>
+<div class="cd-pay immediately">
+    <div class="immedi-box">
+        <div class="pay-box">
+                <span>
+                    <li><span class="mid-wd">信用支付</span></li>
+                    <li><span class="mid-wd">银联支付</span></li>
+                    <li><span class="mid-wd">微信</span></li>
+                    <li><span class="mid-wd">支付宝</span></li>
+                </span>
+        </div>
+        <div class="pay-info">
+            <div class="mid-wd mg">
+                <span>信用支付￥</span><span class="red-wd">100.00</span>
+            </div>
+            <div class="mg">
+                <span class="roundedTwo">
+                    <input type="checkbox" value="None" id="roundedTwo" name="check" checked="">
+                    <label for="roundedTwo"></label>
+                </span>
+                <span>到期还款106.80元  到期2016-11-25  <br class="ds-hide">   利息1.80元  手续费5.00元</span>
+            </div>
+            <div class="pay-btn mg">立即支付</div>
+        </div>
+    </div>
+</div>
+<script>
+
+</script>
+</body>
+
+</html>
+
+
